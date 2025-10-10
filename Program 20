@@ -1,0 +1,89 @@
+Maya wants to know how the Numbers are converted to string in the program.could you please help her to implements the program.
+
+Input Format
+
+input consists of one integer
+Constraints
+
+Given N is greater than 0 and lesser than 9
+Output Format
+
+print the number into string type.
+Sample Input 0
+
+0
+Sample Output 0
+
+Integer is 0 and String is Zero
+Sample Input 1
+
+2
+Sample Output 1
+
+Integer is 2 and String is Two
+Sample Input 2
+
+10
+Sample Output 2
+
+Invalid Input
+
+Program:
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      Scanner d=new Scanner(System.in);
+      int x=d.nextInt();
+      if(x<1)
+      {
+        System.out.print("Integer is "+x+" and String is Zero");
+      }
+      else if(x<=1)
+      {
+        System.out.print("Integer is "+x+" and String is One");
+      }
+      else if(x<=2)
+      {
+        System.out.print("Integer is "+x+" and String is Two");
+      }
+      else if(x<=3)
+      {
+        System.out.print("Integer is "+x+" and String is Three");
+      }
+      else if(x<=4)
+      {
+        System.out.print("Integer is "+x+" and String is Four");
+      }
+      else if(x<=5)
+      {
+        System.out.print("Integer is "+x+" and String is Five");
+      }
+      else if(x<=6)
+      {
+        System.out.print("Integer is "+x+" and String is Six");
+      }
+      else if(x<=7)
+      {
+        System.out.print("Integer is "+x+" and String is Seven");
+      }
+      else if(x<=8)
+      {
+        System.out.print("Integer is "+x+" and String is Eight");
+      }
+      else if(x<=9)
+      {
+        System.out.print("Integer is "+x+" and String is Nine");
+      }
+      else if(x>9)
+      {
+        System.out.print("Invalid Input");
+      }
+    }
+}
