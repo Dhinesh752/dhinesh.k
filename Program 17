@@ -1,0 +1,64 @@
+Maya wants to know how to find whether the alphabet is Vowel or Consonant.could you please help her to find the alphabet is Vowel or Consonant.
+
+Input Format
+
+input consists of one Character.
+Constraints
+
+No Constraints
+
+Output Format
+
+print whether the character is Vowel or Consonant or Invalid Input.
+Sample Input 0
+
+A
+Sample Output 0
+
+The Character A is Vowel
+Sample Input 1
+
+B
+Sample Output 1
+
+The Character B is Consonant
+Sample Input 2
+
+u
+Sample Output 2
+
+The Character u is Vowel
+Sample Input 3
+
+9
+Sample Output 3
+
+Invalid Input
+
+Program:
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      Scanner d=new Scanner(System.in);
+      char a=d.next().charAt(0);
+      if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'||a=='A'||a=='E'||a=='I'||a=='O'||a=='U')
+      {
+        System.out.println("The Character "+a+" is Vowel");
+      }
+      else if(a>='0'&&a<='9')
+      {
+        System.out.println("Invalid Input");
+      }  
+      else
+      {
+        System.out.println("The Character "+a+" is Consonant");
+      }
+    }
+}
