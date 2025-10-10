@@ -1,0 +1,55 @@
+kumar wants to know how the math functions are working in programming.could you please help him to write the program.
+
+Input Format
+
+First input corresponds to float is for floor,ceil and round
+second input corresponds to integer is for sqrt value
+third input corresponds to integer is for base value
+fourth input corresponds to integer is for power value
+Constraints
+
+No Constraints
+
+Output Format
+
+execute the values depends on the sample output format.
+Sample Input 0
+
+67.6734
+16
+5
+2
+Sample Output 0
+
+67
+68
+68
+4
+25
+
+Program:
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String args[] ) throws Exception {
+        Scanner dfc=new Scanner(System.in);
+        float w=dfc.nextFloat();
+      int x=dfc.nextInt();
+      int y=dfc.nextInt();
+      int z=dfc.nextInt();
+      double a=(double)w;
+      int b=Math.round(w);
+      int c=Math.round(w);
+      double e=Math.pow(y,z);
+      System.out.printf("%.0f\n",Math.floor(a));
+      System.out.println(b);
+      System.out.println(c);
+      System.out.printf("%.0f\n",Math.sqrt(x));
+      System.out.printf("%.0f\n",e);
+      }
+}
